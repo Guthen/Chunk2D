@@ -16,7 +16,7 @@ Then you need to set some values by using :
 ```lua
 --  > Set some values like the seed generation, the cellSize, the chunk size (in pixels), and some 
 --  >   surfaces positions  
-Chunk2D.set( seed, cellSize, chunkWidth, chunkH, startSurfaceY, minimalSurfaceY, maxSurfaceY )
+Chunk2D.set( seed, cellSize, chunkWidth, chunkHeight, startSurfaceY, minSurfaceY, maxSurfaceY )
 ```
 Then, you need to set the fill IDs, it used to set the specific id at a specific layer :
 ```lua
